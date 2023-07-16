@@ -1,0 +1,68 @@
+{
+  "bus": [
+    {
+      "id": 1,
+      "bus_key": "B1",
+      "busname": "Airavatha",
+      "busnumber": "KA01E342",
+      "seats": "30",
+      "booked_seats": 42,
+      "type": "AC",
+      "from": "Bengaluru",
+      "to": "Kodagu",
+      "start": "6:00am",
+      "end": "2:00pm",
+      "price": "600",
+      "rating": "8",
+      "journey_time": "8"
+    },
+    {
+      "id": 2,
+      "bus_key": "B1",
+      "busname": "Airavatha",
+      "busnumber": "KA01E342",
+      "seats": "30",
+      "booked_seats": 26,
+      "type": "AC",
+      "from": "Bengaluru",
+      "to": "Mandya",
+      "start": "6:00am",
+      "end": "9:30am",
+      "price": "200",
+      "rating": "8",
+      "journey_time": "3.5"
+    },
+    {
+      "id": 3,
+      "bus_key": "B1",
+      "busname": "Airavatha",
+      "busnumber": "KA01E342",
+      "seats": "30",
+      "booked_seats": "20",
+      "type": "AC",
+      "from": "Mandya",
+      "to": "Mysuru",
+      "start": "9:45am",
+      "end": "10:45am",
+      "price": "200",
+      "rating": "8",
+      "journey_time": "1"
+    },
+    {
+      "id": 5,
+      "bus_key": "B5",
+      "busname": "Airavatha",
+      "busnumber": "KA01E441",
+      "seats": "35",
+      "booked_seats": "22",
+      "type": "AC",
+      "from": "Bijapur",
+      "to": "Benglore",
+      "start": "9:45pm",
+      "end": "10:45am",
+      "price": "800",
+      "rating": "8",
+      "journey_time": "1"
+    }
+  ]
+}

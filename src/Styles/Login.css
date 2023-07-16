@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Slim&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Login-cout{
+    background:linear-gradient(to right,rgba(224, 121, 121, 0.267) 50%,rgba(224, 121, 121, 0.267) 50%),url("https://images.hdqwalls.com/wallpapers/travel-hd.jpg");
+    /* background: linear-gradient(rgba(0, 0, 0, 0.267) 50%,rgba(0, 128, 0, 0.363) 50%); */
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.Login-form{
+    color: black;
+    height: auto;
+    width: 330px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    box-shadow: inset 0px 3px 10px black;
+    padding: 15px;
+    
+}
+.Login-form h1{
+    text-align: center;
+    font-family: 'Nova Slim', cursive;
+}
+.Login-form form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.Login-form form input{
+    background-color: transparent;
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding-left: 10px;
+    outline: none;
+    border-top: black;
+}
+.Login-form form input:hover
+{
+    background-color: black;
+    color: white;
+}
+
+#login-btn
+{
+    background-color: #E8789A;
+    color: white;
+    height: 30px;
+    width:80px;
+    border-radius: 10px;
+    margin: auto;
+    border: none;
+    margin: 10px 0px;
+   
+    cursor: pointer;
+
+}
+#login-btn:hover{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: white ;
+    border: 2px solid #E8789A ;
+
+}
+.Login-form form span{
+    text-align: center;
+    font-size: 18px;
+}
+#Create-Account{
+    margin: auto;
+    padding: 5px;
+    height: 30px;
+    width: 120px;
+    outline: none;
+    border: none;
+    background-color: rgb(236, 236, 44);
+    border-radius: 10px;
+    
+}
+#Create-Account a{
+    text-decoration: none;
+    color:black;
+
+}
+#Create-Account a:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px soild rgb(236, 236, 44);
+}

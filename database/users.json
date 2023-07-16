@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "username": "sheela",
+      "email": "sheela@gmail.com",
+      "password": "sheela123",
+      "dob": "1998-07-10",
+      "mobileno": "9019346625",
+      "gender": "female",
+      "active_bookings": [
+        {
+          "busname": "Airavatha",
+          "busnumber": "KA01E342",
+          "seats": 1,
+          "from": "Bengaluru",
+          "to": "Kodagu",
+          "start": "6:00am",
+          "end": "2:00pm",
+          "journey_time": "8",
+          "price": 600,
+          "date": "2023-06-21"
+        }
+      ],
+      "previous_bookings": [
+        {
+          "busname": "Airavatha",
+          "busnumber": "KA01E342",
+          "seats": 1,
+          "from": "Bengaluru",
+          "to": "Kodagu",
+          "start": "6:00am",
+          "end": "2:00pm",
+          "journey_time": "8",
+          "price": 600,
+          "date": "2023-05-27"
+        },
+        {
+          "busname": "Airavatha",
+          "busnumber": "KA01E342",
+          "seats": "2",
+          "from": "Bengaluru",
+          "to": "Kodagu",
+          "start": "6:00am",
+          "end": "2:00pm",
+          "journey_time": "8",
+          "price": 1200,
+          "date": "2023-05-23"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "username": "tanuja",
+      "email": "tanuja@gmail.com",
+      "password": "tanu123",
+      "dob": "2001-08-10",
+      "mobileno": "9088714771",
+      "pic": "",
+      "gender": "",
+      "active_bookings": [],
+      "previous_bookings": [],
+      "id": 2
+    },
+    {
+      "username": "sheela",
+      "email": "sheela@gmail.com",
+      "password": "123",
+      "dob": "2023-07-16",
+      "mobileno": "7091346625",
+      "id": 3
+    }
+  ]
+}

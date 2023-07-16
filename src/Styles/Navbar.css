@@ -1,0 +1,50 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nova+Slim&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#nav{
+    background-color: #6F1D57;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+}
+
+#rightnav{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ 
+}
+.logo{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Nova Slim', cursive;
+}
+#nav :first-child img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
+    font-family: 'Nova Slim', cursive;
+}
+.nav-link :hover{
+   border-bottom: 2px black solid;
+}
+#nav h1{
+    text-align: center;
+}

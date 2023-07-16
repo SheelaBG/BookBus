@@ -1,0 +1,134 @@
+.inputs{
+  padding: 0px 270px;
+}
+.inputs h1{
+  margin: 20px 0px;
+}
+.inputs form{
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.inputs form input{
+  width: 200px;
+  height: 30px;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 4px;
+  margin: 5px;
+  padding-left:10px ;
+  padding-right:10px ;
+}
+.inputs form input[type="submit"]{
+  display: block;
+  width: 130px;
+  background-color: #6F1D57;
+  border: solid 1px #6F1D57;
+  color: white;
+  font-weight: 700;
+}
+.inputs form input[type="submit"]:hover{
+  background-color: white;
+  border: solid 1px #6F1D57;
+  color: #6F1D57;
+}
+.book-bus h3 , h1{
+  margin: 20px 0px;
+  text-align: center;
+}
+.inputs form{
+  position: relative;
+}
+.inputs form input:focus+div{
+  display: block;
+  border: solid 2px black;
+  border-top: none;
+}
+.start-points{
+  display: none;
+  width: 200px;
+  background-color: white ;
+  position: absolute;
+  top: 30px;
+  left: 5px;
+  border: solid 1px rgb(194, 194, 194);
+  border-top: none;
+  border-radius:0px 0px 4px 4px;
+}
+.end-points{
+  display: none;
+  width: 200px;
+  background-color: white ;
+  position: absolute;
+  top: 32px;
+  left: 215px;
+  border: solid 1px rgb(194, 194, 194);
+  border-top: none;
+  border-radius:0px 0px 4px 4px;
+}
+.start-points span,.end-points span {
+  display: block;
+  padding: 5px;
+  margin: 2px 5px;
+  font-size: 12px;
+  transition: 0.3s
+}
+.start-points span:hover ,.end-points span:hover {
+  cursor: pointer;
+  background-color: #e8789a6c;
+  transform: scale(1.01);
+  margin-left: 12px;
+}
+.start-points:hover , .end-points:hover{
+  display: block;
+}
+.bus-list h1{
+  color: #6F1D57;
+  animation: blink 0.2s infinite linear;
+}
+.bus-table{
+  width: 800px;
+  margin: 20px auto;
+}
+.header{
+  color: white;
+  background-color: #6F1D57;
+  width: 800px;
+  height: 40px;
+  padding: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size:17px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+.body>div{
+  background-color: #e8789a6c;
+  margin: 10px 0px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px black;
+  transition: 0.3s;
+}
+.body>div span{
+  display: block;
+  padding-left: 0px;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.body>div:hover{
+  transform: scale(1.02);
+}
+.body div button{
+  color: white;
+  font-weight: 700;
+  margin: 5px 0px;
+  padding: 5px 15px;
+  background-color: #6F1D57;
+  border: solid 1px #6F1D57;
+  border-radius: 3px;
+}

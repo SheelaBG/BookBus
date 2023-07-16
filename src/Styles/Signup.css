@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Signup-cout{
+    background: url("https://images.hdqwalls.com/wallpapers/travel-hd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+   
+}
+#Signup-form{
+   width: 350px;
+   height: auto;
+   position: relative;
+   top: 50%;
+   left: 30%;
+   transform: translate(-50%,-50%);
+   padding: 20px 30px;
+   border-radius: 15px;
+   box-shadow:inset -3px -12px 17px black;
+
+}
+.Signup-cout h3{
+    position: absolute;
+    color: black;
+    top: 40px;
+    left: 320px;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-family: 'Nova Slim', cursive;
+}
+
+#Signup-form input{
+    background-color: transparent;
+    color: #fff;
+    height: 30px;
+    width: 100%;
+    display: block;
+    margin:15px 0px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    position: relative;
+    box-shadow: inset 0px -8px 12px black;
+}
+#Signup-form input::placeholder{
+    padding-left: 10px;
+    color: #fff;
+}
+#Signup-form input:hover{
+    background-color: black;
+    transform: scale(1.05);
+    border: 1px #fff solid;
+}
+#pwd-miss{
+    color: rgba(32, 243, 5, 0.925);
+    font-size: 12px;
+    position: absolute;
+    bottom: 275px;
+    z-index: 10;
+}
+#dob-miss
+{
+    color: rgba(32, 243, 5, 0.925);
+    font-size: 12px;
+    position: absolute;
+    bottom: 184px;
+    z-index: 10;
+}
+
+#signup-btn{
+    background-color: grey;
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+#signup-btn:hover{
+    transform: scale(1.05);
+}
+#verify-btn{
+    background-color:transparent;
+    position: absolute;
+    bottom: 58px;
+    left: 210px;
+    border:2px solid white;
+    color: white;
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+}
+#verify-btn:hover{
+    background-color: rgb(192, 224, 236) ;
+    color:black;
+}
+#pwd_span{
+    position: absolute;
+    top: 108px;
+    color: rgb(183, 248, 4);
+    font-size:14px;
+} 
+#signin
+{ 
+    color: rgb(3, 3, 75);
+    background-color: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+#Signup-span {
+    color: white;
+    font-weight: 400;
+
+
+}
